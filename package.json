@@ -15,7 +15,10 @@
     "lint": "eslint \"src/**/*.js\" \"test/**/*.js\"",
     "lint:fix": "npm run lint -- --fix",
     "lint:quiet": "npm run lint -- --quiet",
+    "prettier": "prettier src/**/*.js test/**/*.js --write",
     "test": "jest",
+    "precise-commits": "precise-commits",
+    "precommit": "precise-commits",
     "update-projects": "babel-node src/scripts/update-projects",
     "update-collectives": "babel-node src/scripts/update-collectives"
   },
@@ -75,8 +78,11 @@
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-react": "^7.10.0",
+    "husky": "^0.14.3",
     "jest": "^23.5.0",
     "nodemon": "^1.18.3",
+    "precise-commits": "^1.0.2",
+    "prettier": "^1.14.2",
     "svg-react-loader": "^0.4.5",
     "webpack": "3.10.0",
     "webpack-bundle-analyzer": "^2.13.1"
