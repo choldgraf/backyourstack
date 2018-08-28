@@ -10,15 +10,12 @@
     "no-extra-semi": "warn",
     "curly": "warn",
     "no-multi-spaces": "warn",
-    "space-before-function-paren": [
-      "warn",
-      "always"
-    ],
     "no-constant-condition": [
       "warn",
       {
         "checkLoops": false
       }
-    ]
+    ],
+    "react/jsx-closing-bracket-location": ["warn", "tag-aligned"]
   }
 }
